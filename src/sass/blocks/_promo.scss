@@ -1,0 +1,130 @@
+.promo {
+    padding: 39px 0 195px 0; 
+    min-height: 700px;
+    background: url('../img/promo/bg.jpg') center (center / cover) no-repeat;
+    &_2 {
+        background: url('../img/promo/bg2.jpg') center (center / cover) no-repeat;
+    }
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        img {
+            justify-self: start;
+            width: 140px;
+            height: 65px;
+        }
+        &-navbar {
+            margin-top: 15px;
+            justify-self: end;
+            a {
+                padding-right: 27px;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 26px;
+                text-align: right;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                text-decoration: none;
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+    }
+    &__wrapper {
+        position: relative;
+        margin-top: 133px;
+        width: 530px;
+    }
+    &__title {
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 48px;
+        color: #FFFFFF;
+    }
+    &__subtitle {
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    &__btn {
+        margin-top: 32px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 241px;
+        height: 60px;
+        background: #00C2F0;
+        box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.07);
+        border: none;
+        border-radius: 4px;
+    }
+    &__phone_1 {
+        position: absolute;
+        left: 148%;
+        z-index: 3;
+        top: -35%;
+    }
+    &__phone_2 {
+        position: absolute;
+        left: 129%;
+        top: -11%;
+        z-index: 1;
+    }
+}
+
+.slick-dotted.slick-slider {
+    margin: 0;
+}
+
+.slick-arrow {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    z-index: 1;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    padding: 3px;
+    vertical-align: middle;
+}
+.slick-prev {
+    position: absolute;
+    top: calc(85% + 24px);
+    left: 48%;
+    transform: rotate(135deg);
+}
+
+.slick-next {
+    transform: rotate(-45deg);
+    position: absolute;
+    top: calc(85% + 24px);
+    left: 51%;
+}
+
+.slick-dots {
+    bottom: 9%;
+    li {
+        margin: 0 -1px;
+    }
+    li button {
+        width: 11px;
+        height: 11px;
+        top: 15px;
+        left: 14px;
+        border: 1px solid white;
+        border-radius: 100%;
+    }
+    li button:before {
+        font-size: 42px;
+        left: -4px;
+        top: -4px;
+        opacity: 0;
+    }
+    li.slick-active button:before {
+        color: white;
+    }
+}

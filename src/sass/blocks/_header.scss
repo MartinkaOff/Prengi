@@ -1,0 +1,54 @@
+.header {
+    padding-left: 85px;
+    height: 85px;
+    &__wrapper {
+        height: 50px;
+        margin-top: 19px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__block {
+        position: relative;
+        width: 220px;
+        &_ukr {
+            @include before_icon;
+            &:before {
+                content: url('../icons/header/ukraine.png');
+            }
+        }
+        &_ger {
+            @include before_icon;
+            &:before {
+                content: url('../icons/header/germany.png');
+            }
+        }
+        &_est {
+            @include before_icon;
+            &:before {
+                content: url('../icons/header/estonia.png');
+            }
+        }
+        &_grb {
+            @include before_icon;
+            &:before {
+                content: url('../icons/header/great_britain.png');
+            }
+        }
+        &_lux {
+            @include before_icon;
+            &:before {
+                content: url('../icons/header/luxembourg.png');
+            }
+        }
+    }
+    &__text {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+        color: #242424;
+        span {
+            font-weight: 700;
+            font-size: 14px;
+        }
+    }
+}

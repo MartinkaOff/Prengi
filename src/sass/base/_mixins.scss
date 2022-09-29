@@ -1,0 +1,7 @@
+@mixin before_icon {
+    &:before {
+        position: absolute;
+        right: calc(100% + 10px);
+        top: 8%;
+    }
+}
