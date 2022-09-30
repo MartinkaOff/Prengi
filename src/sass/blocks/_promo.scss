@@ -5,6 +5,15 @@
     &_2 {
         background: url('../img/promo/bg2.jpg') center (center / cover) no-repeat;
     }
+    &_3 {
+        background: url('../img/promo/bg3.jpg') center (center / cover) no-repeat;
+    }
+    &_4 {
+        background: url('../img/promo/bg4.jpg') center (center / cover) no-repeat;
+    }
+    &_5 {
+        background: url('../img/promo/bg5.jpg') center (center / cover) no-repeat;
+    }
     &__header {
         display: flex;
         justify-content: space-between;
@@ -94,7 +103,7 @@
 .slick-prev {
     position: absolute;
     top: calc(85% + 24px);
-    left: 48%;
+    left: 46%;
     transform: rotate(135deg);
 }
 
@@ -102,7 +111,7 @@
     transform: rotate(-45deg);
     position: absolute;
     top: calc(85% + 24px);
-    left: 51%;
+    left: 53%;
 }
 
 .slick-dots {
