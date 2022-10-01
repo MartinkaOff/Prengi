@@ -1,0 +1,84 @@
+.present {
+    padding: 73px 0 61px 0;
+    background: url('../img/present/bg.jpg') center (center / cover) no-repeat;
+    &__tabs {
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 843px;
+        height: 63.98px;
+        background: rgba(0, 0, 0, 0.0001);
+        border: 1px solid #FFFFFF;
+    }
+    &__wrapper {
+        text-align: center;
+        .slick-list {
+            margin-top: 35px;
+        }
+        
+        .slick-arrow {
+            width: 59px;
+            height: 59px;
+        }
+        .slick-prev {
+            top: 42%;
+            left: calc(15% - 155px);
+        }
+        
+        .slick-next {
+            top: 42%;
+            left: calc(80% + 130px);
+        }
+         .slick-active {
+            button {
+                font-weight: 700;
+                color: #00C2F0;
+            }
+         }
+         button {
+            list-style: none;
+            padding-right: 29px;
+            padding-left: 14px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 26px;
+            text-align: center;
+            color: #fff;
+            cursor: pointer;
+            background-color: rgba(28,28,28,0);
+            border: 1px solid white;
+            border-width: 0 1px 0 0;
+            height: 49px;
+            
+            &:focus {
+                outline: #FFFFFF;
+            }
+         }
+    }
+    &__slide {
+        width: 1042px;
+        img {
+            margin: 0 auto;
+            width: 80%;
+        }
+    }
+    &__dots {
+        position: absolute;
+        left: 14%;
+        bottom: 105%;
+        display: flex;
+        justify-content: space-between;
+        li {
+            list-style: none;
+            margin: 0 5px;
+        }
+        
+        
+    }
+    
+}
+
+
+

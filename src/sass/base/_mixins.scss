@@ -5,3 +5,11 @@
         top: 8%;
     }
 }
+
+@mixin after_div {
+    &:after {
+        width: 1px;
+        height: 64px;
+        border: 1px solid #ffffff;
+    }
+}
