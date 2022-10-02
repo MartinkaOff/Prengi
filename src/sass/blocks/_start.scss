@@ -1,0 +1,41 @@
+.start {
+    position: relative;
+    padding: 190px 0 73px 0;
+    &__block {
+        margin: 0 auto;
+        width: 302px;
+        height: 302px;
+    }
+    &__square {
+        top: calc(20% + 80px);
+        transform: translateX(-50%);
+        position: absolute;
+        left: 50%;
+    }
+    &__icon {
+        padding-top: 85px;
+        display: block;
+        margin: 0 auto;
+    }
+    &__title {
+        margin-top: 120px;
+    }
+    &__btn {
+        margin: 21px auto;
+        display: block;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+        width: 241px;
+        height: 60px;
+        background: #00C2F0;
+        box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.07);
+        border: none;
+        &:focus {
+            outline: #FFFFFF;
+        }
+    }
+}

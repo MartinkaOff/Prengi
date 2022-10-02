@@ -3,5 +3,8 @@
     font-size: 30px;
     line-height: 36px;
     text-align: center;
-    color: #FFFFFF;
+    color: black;
+    &_white {
+        color: #FFFFFF;
+    }
 }
